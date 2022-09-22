@@ -1,0 +1,7 @@
+.page {
+  @apply grid grid-rows-[auto_1fr_auto] min-h-[100vh] bg-slate-800;
+}
+
+.main {
+  @apply max-w-[1200px] my-0 mx-auto p-10;
+}

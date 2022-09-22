@@ -1,0 +1,11 @@
+.header {
+  @apply bg-slate-900 px-[5%] h-12 font-bold text-cyan-500 flex justify-between items-center;
+}
+
+.header ul {
+  @apply flex flex-row;
+}
+
+.header li {
+  @apply mr-5  cursor-pointer hover:text-cyan-600 transition-colors duration-300;
+}

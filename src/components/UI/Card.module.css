@@ -1,0 +1,27 @@
+.card {
+  @apply max-h-[600px] max-w-[300px] bg-slate-300 text-slate-800 rounded-md overflow-hidden;
+}
+
+.image-box {
+  @apply max-h-[200px] overflow-hidden;
+}
+
+.card img {
+  @apply transition-transform duration-1000;
+}
+
+.card:hover img {
+  @apply scale-105;
+}
+
+.content {
+  @apply p-4 flex flex-col gap-2;
+}
+
+.card h1 {
+  @apply font-bold text-lg;
+}
+
+.card p {
+  @apply text-base;
+}

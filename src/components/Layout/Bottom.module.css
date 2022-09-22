@@ -1,0 +1,10 @@
+.bottom {
+  @apply bg-slate-700
+  h-[120px]
+  w-[100%]
+  flex 
+  justify-center
+  items-center 
+  text-white 
+  font-bold;
+}
